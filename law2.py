@@ -10,7 +10,7 @@ from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddi
 
 #step 1: Load environment variables
 
-os.environ["Google_API_KEY"]="AIzaSyCnOloqjSfg3sZV5hJ5Yc0iwAjM9w462lc"
+os.environ["Google_API_KEY"]="your_api_key"
 
 os.environ["Google_API_KEY"] = os.getenv("Google_API_KEY")
 

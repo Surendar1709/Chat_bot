@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnablePassthrough
@@ -10,7 +9,6 @@ from langchain_chroma import Chroma
 from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 
 #step 1: Load environment variables
-load_dotenv()
 
 os.environ["Google_API_KEY"]="AIzaSyCnOloqjSfg3sZV5hJ5Yc0iwAjM9w462lc"
 

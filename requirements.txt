@@ -1,0 +1,1 @@
+pip intall streamlit langchain_community   langchainhub chromadb   langchain_google_genai
